@@ -1,4 +1,4 @@
-let objeto = {nombre: "Claudio", edad: 20, color: "rojo", domicilio: "San Martin"}
+/* let objeto = {nombre: "Claudio", edad: 20, color: "rojo", domicilio: "San Martin"}
 
 let arreglo = []
 
@@ -19,9 +19,9 @@ console.log(number[5])
 
 let suma = number[0] + number[2]
 
-console.log (suma);
+console.log (suma); */
 
-let nombres = ["Claudio", "Pedro", "Juan", "Carlos", "Alexis", "Martin"];
+/* let nombres = ["Claudio", "Pedro", "Juan", "Carlos", "Alexis", "Martin"];
 
 
 
@@ -49,7 +49,35 @@ for (let i = 0; i < nombres.length; i++) {
     
 }
 
+nombres.splice(2, 3);
 
+console.log("-----------");
+for (let i = 0; i < nombres.length; i++) {
+        console.log(nombres[i]);
+}
+console.log("----------------------")
+console.log(nombres.join(" "));
+ */
+
+let perros = ["salchicha", "golden", "snauzer"];
+
+let gatos = ["Persa", "Egipcio"];
+
+let animales = perros.concat(gatos);
+
+console.log(animales);
+
+let animales2 = animales.slice(1, 4);
+
+console.log(animales2);
+
+console.log(animales.indexOf("salchicha"));
+
+console.log(animales.includes("salchicha"));
+
+console.log(animales.includes("Alexis"));
+
+console.log(animales.reverse());
 
 
 
